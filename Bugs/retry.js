@@ -9,6 +9,7 @@ function primitiveMultiply(a, b) {
 }
 
 function reliableMultiply(a, b) {
+	// https://stackoverflow.com/questions/4894120/what-does-for-mean
 	for (; ;) {
 		try {
 			return primitiveMultiply(a, b);
